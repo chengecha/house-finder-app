@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">draw-nav</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+<string-array name="TYPES">
+    <item>LANDLORD</item>
+<item>TENANT</item>
+</string-array>
+
+    <string-array name="Housetypes">
+        <item>Bungalow</item>
+        <item>Mansion</item>
+        <item>Four-bedroom</item>
+        <item>Three-bedroom</item>
+        <item>Two-bedroom</item>
+        <item>One-bedroom</item>
+        <item>Bedsitter</item>
+        <item>Double-room</item>
+        <item>Single-room</item>
+</string-array>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/four"
+    >
+
+
+    <EditText
+        android:id="@+id/nationalid"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="545dp"
+        android:hint="id-no"
+        android:inputType="number"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/idimg"
+        android:layout_width="109dp"
+        android:layout_height="27dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="410dp"
+        android:text="image"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/kraimg"
+        android:layout_width="109dp"
+        android:layout_height="27dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="413dp"
+        android:text="kracert"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/loginlinnk"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="653dp"
+        android:text="Welcome to Mnyumba create an account with us"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/regusername"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="593dp"
+        android:hint="full-names"
+        android:inputType="text"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/regemail"
+        android:layout_width="246dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="496dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/regphonenumber"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="443dp"
+        android:hint="phone number"
+        android:inputType="number"
+        android:textColorHint="@color/black" />
+
+    <Spinner
+        android:id="@+id/regtype"
+        android:layout_width="167dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="371dp" />
+
+    <TextView
+        android:id="@+id/warn"
+        android:layout_width="45dp"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="369dp"
+        android:text="Type"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/regpassword"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="311dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/regconfirmpassword"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="258dp"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="195dp"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/regloginlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="163dp"
+        android:text="login if you already have an account"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
